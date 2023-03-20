@@ -1,12 +1,12 @@
-function calcGorjeta(){
-    var totalConta = document.getElementById("Valor-conta").value;
-    var totalPessoas = document.getElementById("Quant-pessoas").value;
+function CalcJantar(){
+    var valorTotal = document.getElementById("valor-conta").value;
+    var quantPessoas = document.getElementById("quant-pessoas").value;
 
-    if (totalConta === 0 || isNaN(totalConta) || isNaN(totalPessoas) || "") {
-        alert("Por favor, digite um valore valido!");
-        return;
-    }
+    var total = ((valorTotal * (10/100)) / quantPessoas);
+
+    document.getElementById("valor-p-pesssoa").innerHTML = total;
+
 }
 document.getElementById("calcular").onclick = function(){
-    calcGorjeta();
+    CalcJantar();
 }

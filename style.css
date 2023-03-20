@@ -5,9 +5,16 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container {
-    background-color: rgb(118, 181, 236);
+    background-color: rgb(15, 53, 87);
     height: 60vh;
     width: 60vh;
+    border-radius: 6%;
+}
+.margin h3{
+    color: antiquewhite;
+}
+.margin h1{
+    color: antiquewhite;
 }
 .margin {
     margin-top: 20px;
@@ -39,5 +46,6 @@ body input{
 body button {
     width: 200px;
     align-items: center;
-    background-color: rgb(124, 127, 129);
+    background-color: rgba(115, 199, 255, 0.966);
+    border-color: rgba(42, 161, 240, 0.425);
 }
